@@ -1,0 +1,58 @@
+.fx {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  h1 {
+    font-size: 1.8rem;
+  }
+  .content-main {
+    display: flex;
+  }
+  .fx-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-flow: wrap;
+    .fx-item {
+      :hover {
+        cursor: pointer;
+      }
+      max-height: 350px;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 0.4rem;
+      border: 1px solid #cecece;
+      box-shadow: 0 8px 6px -6px #bbb;
+      .item-box {
+        .item-img {
+          .img-box {
+            display: flex;
+            justify-content: center;
+          }
+          img {
+            max-width: 150px;
+          }
+        }
+      }
+      .item-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .item-details {
+          border-top: 1px solid #cecece;
+          padding-top: 15px;
+        }
+        .detail-main {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+
+  .fx-cart {
+    flex: 0 1 40%;
+  }
+}
+
+@import "./components/cart/styles";

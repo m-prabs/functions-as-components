@@ -1,0 +1,38 @@
+{
+  "name": "sn-functional-comp-example",
+  "version": "0.0.1",
+  "private": false,
+  "description": "",
+  "keywords": [
+    "ServiceNow",
+    "Seismic Component",
+    "Functional Components"
+  ],
+  "readme": "./README.md",
+  "scripts": {
+    "start": "builder run develop:trace -- --port=8085 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.devsnc.com/prabhat-mishra/functional-comp-example"
+  },
+  "engines": {
+    "node": ">=8.6.0",
+    "npm": ">=5.3.0"
+  },
+  "dependencies": {
+    "@servicenow/now-button": "18.0.0",
+    "@servicenow/sass-global": "18.0.0",
+    "@servicenow/sass-kit": "18.0.0",
+    "@servicenow/sass-theme": "18.0.0",
+    "@servicenow/sass-utility": "18.0.0",
+    "@servicenow/ui-core": "18.0.0-rc.33",
+    "@servicenow/ui-renderer-snabbdom": "18.0.0-rc.33",
+    "@tectonic/archetype": "5.0.0-rc.41",
+    "@tectonic/component-archetype": "5.0.0-rc.41"
+  },
+  "devDependencies": {
+    "@tectonic/archetype-dev": "5.0.0-rc.44",
+    "@tectonic/component-archetype-dev": "5.0.0-rc.44"
+  }
+}
